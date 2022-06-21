@@ -92,7 +92,6 @@ class ExceptionsHandling{
 			System.out.println(number);
 		}catch(NumberFormatException ne) {
 			System.out.println("NumberFormatException");
-
 		}
 	}
 	/*
@@ -121,7 +120,6 @@ class ExceptionsHandling{
 		}catch(Exception e) {
 			System.out.println(e+" : No elements in a List");
 		}
-		
 	}
 	/*
 	 * handling ClassCastException using try-catch
